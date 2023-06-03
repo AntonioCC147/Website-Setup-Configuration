@@ -1,0 +1,14 @@
+.codeBox {
+    width: fit-content;
+    max-width: 50%;
+    height: auto;
+
+    border-radius: 15px;
+    
+    padding: 10px 10px 10px 50px;
+    font-family: 'Courier New';
+    text-align: justify;
+    color: white;
+
+    background: #323131 !important;
+}
