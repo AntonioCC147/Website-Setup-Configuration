@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Import all pages
 // You can change the name if you want; "DefaultHome" is not the function, but is imported from where "Home" function is
-import DefaultHome from "./components/home/home";
-import DemoPage from './components/demoPage/demoPage';
+import DefaultHome from "./pages/home/home";
+import DemoPage from './pages/demoPage/demoPage';
 
 // Import CSS file
 import './App.css';
