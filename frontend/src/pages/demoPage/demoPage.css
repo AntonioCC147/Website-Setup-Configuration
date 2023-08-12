@@ -4,3 +4,8 @@
 
     padding: 15px;
 }
+
+.button {
+    border: none;
+    background-color: transparent;
+}
