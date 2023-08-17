@@ -5,17 +5,23 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DefaultHome from "./pages/home/home";
 import DemoPage from './pages/demoPage/demoPage';
 
+// Import Navbar component
+import NavbarComponent from "./components/navbar/navbar";
+
 // Import CSS file
 import './App.css';
 
 function App() {
     return (
-        <Router>
-            <Routes>
-                <Route exact path="/" element={<DefaultHome/>}></Route>
-                <Route path="/demopage" element={<DemoPage/>}></Route>
-            </Routes>
-        </Router>
+        <div>
+            <NavbarComponent/>
+            <Router>
+                <Routes>
+                    <Route exact path="/" element={<DefaultHome/>}></Route>
+                    <Route path="/demopage" element={<DemoPage/>}></Route>
+                </Routes>
+            </Router>
+        </div>
     );
 }
 
