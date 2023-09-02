@@ -1,0 +1,15 @@
+.title {
+    text-align: center !important;
+
+    font-size: 36px;
+}
+
+.container {
+    width: 45% !important;
+
+    margin: 50px;
+    padding: 10px;
+
+    border-radius: 10px;
+    border-style: solid;
+}

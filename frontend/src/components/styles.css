@@ -1,0 +1,9 @@
+.body {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.title {
+    color: red !important;
+    font-size: 36px !important;
+}
